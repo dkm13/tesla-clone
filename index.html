@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/049c2c6974.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/images/tesla-logo-fav-icon.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Tesla</title>
+  </head>
+  <!--body-->
+  <body onload="load()">
+    <div class="nav">
+      <div class="logo">
+        <a href="/index.html"
+          ><img src="/images/tesla-letters.png" alt="logo"
+        /></a>
+      </div>
+
+      <!--Middle submenu-->
+      <div class="primary-submenu">
+        <ul id="p-menu">
+          <li><a href="#model-s">Model S</a></li>
+          <li><a href="#model-3">Model 3</a></li>
+          <li><a href="#model-x">Model X</a></li>
+          <li><a href="#model-y">Model Y</a></li>
+          <li><a href="#solar-roof">Solar Roof</a></li>
+          <li><a href="#solar-panels">Solar Panels</a></li>
+        </ul>
+      </div>
+
+      <!--Right sub-->
+      <div class="secondary-submenu">
+        <ul id="s-menu">
+          <li>Shop</li>
+          <li>Account</li>
+          <li onclick="openMenu()" id="menu">Menu</li>
+        </ul>
+      </div>
+
+      <!--optional menu-->
+      <div id="opt-menu" class="opt-menu">
+        <i onclick="hideMenu()" class="fas fa-times"></i>
+        <ul id="opt-1">
+          <li><a href="#model-s">Model S</a></li>
+          <li><a href="#model-3">Model 3</a></li>
+          <li><a href="#model-x">Model X</a></li>
+          <li><a href="#model-y">Model Y</a></li>
+          <li><a href="#solar-roof">Solar Roof</a></li>
+          <li><a href="#solar-panels">Solar Panels</a></li>
+          <!-- <li>Model S</li>
+          <li>Model 3</li>
+          <li>Model X</li>
+          <li>Model Y</li>
+          <li>Solar Roof</li>
+          <li>Solar Panels</li> -->
+        </ul>
+        <ul id="opt-2">
+          <li>Existing Invertory</li>
+          <li>Used Invertory</li>
+          <li>Trade-In</li>
+          <li>Test Drive</li>
+          <li>Cybertruck</li>
+          <li>Roadster</li>
+          <li>Semi</li>
+          <li>Charging</li>
+          <li>Powerwall</li>
+          <li>Commercial Energy</li>
+          <li>Utilities</li>
+          <li>Find us</li>
+          <li>Support</li>
+          <li>Investor Relations</li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="home a" id="model-3">
+      <!--nav-->
+
+      <!--model text-->
+      <div class="model-text">
+        <h2>Model 3</h2>
+        <p>Order Online for <span id="p-span">Touchless Delivery</span></p>
+      </div>
+
+      <div class="opt-buttons">
+        <button id="first">CUSTOM ORDER</button>
+        <button id="second">EXISTING INVENTORY</button>
+      </div>
+      <a href="#model-y"><i id="down" class="fas fa-chevron-down"></i></a>
+    </section>
+
+    <section class="model-y a" id="model-y">
+      <div class="model-text">
+        <h2>Model Y</h2>
+        <p>Order Online for <span id="p-span">Touchless Delivery</span></p>
+      </div>
+
+      <div class="opt-buttons">
+        <button id="first">CUSTOM ORDER</button>
+        <button id="second">EXISTING INVENTORY</button>
+      </div>
+    </section>
+
+    <!-- model s -->
+
+    <section class="model-s a" id="model-s">
+      <div class="model-text">
+        <h2>Model S</h2>
+        <p>Order Online for <span id="p-span">Touchless Delivery</span></p>
+      </div>
+
+      <div class="opt-buttons">
+        <button id="first">CUSTOM ORDER</button>
+        <button id="second">EXISTING INVENTORY</button>
+      </div>
+    </section>
+
+    <!-- model x -->
+
+    <section class="model-x a" id="model-x">
+      <div class="model-text">
+        <h2>Model X</h2>
+        <p>Order Online for <span id="p-span">Touchless Delivery</span></p>
+      </div>
+
+      <div class="opt-buttons">
+        <button id="first">CUSTOM ORDER</button>
+        <button id="second">EXISTING INVENTORY</button>
+      </div>
+    </section>
+
+    <!-- solar panels -->
+
+    <section class="solar-panels a" id="solar-panels">
+      <div class="model-text">
+        <h2>Solar Panels</h2>
+        <p>Lowest Cost Solar Panels in America</p>
+      </div>
+
+      <div class="opt-buttons">
+        <button id="first">ORDER NOW</button>
+        <button id="second">LEARN MORE</button>
+      </div>
+    </section>
+
+    <!-- solar roof -->
+
+    <section class="solar-roof a" id="solar-roof">
+      <div class="model-text">
+        <h2>Solar Roof</h2>
+        <p>Produce Clean Energy From Your Roof</p>
+      </div>
+
+      <div class="opt-buttons">
+        <button id="first">ORDER NOW</button>
+        <button id="second">LEARN MORE</button>
+      </div>
+    </section>
+
+    <!-- accesories -->
+
+    <section class="accessories a">
+      <div class="model-text">
+        <h2>Accessories</h2>
+      </div>
+
+      <div class="opt-buttons">
+        <button id="first">SHOP NOW</button>
+      </div>
+    </section>
+
+    <div class="p-group">
+      <p>Tesla &copy; 2022</p>
+      <p>Privacy & Legal</p>
+      <p>Contact</p>
+      <p>Careers</p>
+      <p>News</p>
+      <p>Engage</p>
+      <p>Locations</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
