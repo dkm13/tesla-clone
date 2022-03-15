@@ -365,6 +365,19 @@ body {
   cursor: pointer;
 }
 
+.copyrights {
+  height: auto;
+  width: 100%;
+  background-color: rgb(192, 179, 179);
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #3d4045;
+}
+.copyrights p {
+  margin-bottom: 4px;
+}
+
 @media screen and (max-width: 1208px) {
   .nav {
     display: flex;
